@@ -4,7 +4,6 @@
 
 ------------
 
-
 #### Goals:
 To get a position as a Junior Frontend Developer.
 
@@ -18,3 +17,12 @@ To get a position as a Junior Frontend Developer.
 
 #### Code examples:
 [My GitHub ](https://github.com/akulahere "My GitHub ")
+
+------------
+
+#### Education:
+- Sevastopol National Technical University: English teacher/social pedagogue
+- codebasics courses: html/css, introduction to javascript
+- hexlet courses: frontend
+- mate academy courses: frontend
+- English: B1 - B2.
