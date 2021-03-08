@@ -3,51 +3,51 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
     <title>Dmitry Akulinin</title>
 </head>
 <body>
 <header>
     <div class="data">
-        <div class="name">
-            <h1>Dmitry Akulinin</h1>
-        </div>
+        <section class="name">
+            <h1>Dmitry Akulinin CV</h1>
+        </section>
     </div>
 </header>
 <main>
+    <section class="position">
+        <h3>
+            Frontend Developer.
+        </h3>
+    </section>
     <section class="general-info">
+        <figure class="photo-container">
+            <img class="photo" src="./img/photo.jpg" alt="Photo of Dmitry">
+        </figure>
         <ul class="contacts">
-            <li>
+            <li class="contact-element">
                 <a href="mailto:stalpetc@gmail.com">akulinind@gmail.com</a>
             </li>
-            <li>
+            <li class="contact-element">
                 <a href="tel:+79787389925">+79787389925</a>
             </li>
-            <li>
+            <li class="contact-element">
                 <a href="https://github.com/akulehere" target="_blank">GitHub.com</a>
             </li>
         </ul>
-        <figure class="photo-container">
-            <img src="./img/photo.jpg" alt="Photo of Dmitry" class="photo">
-        </figure>
     </section>
-    <section class="goal">
-        <h2>
-            Goal: To get a position as a Junior Frontend Developer.
-        </h2>
-    </section>
-    <section>
-        <div class="all_data">
-            <div class="skills_and_education">
-                <div class="skills">
+    <section class="all_data">
+                <section class="skills">
                     <h3>Technical skills</h3>
                     <ul>
-                        <li>HTML5/CSS</li>
-                        <li>JS</li>
-                        <li>Git</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript, TypeScript</li>
+                        <li>Git, Github, Gitlab</li>
+                        <li>Figma</li>
+                        <li>SQL</li>
                     </ul>
-                </div>
-                <div class="education">
+                </section>
+                <section class="education">
                     <h3>Education</h3>
                     <ul>
                         <li>Sevastopol National Technical University</li>
@@ -56,15 +56,19 @@
                         <li>mate academy courses: frontend</li>
                         <li>English: B1 - B2</li>
                     </ul>
-                </div>
-            </div>
-        </div>
+                </section>
+                <section class="job_experience">
+                    <h3>Job experience</h3>
+                    <ul>
+                        <li>VCV Inc, QA Lead (2019-2021)</li>
+                        <li>Fasten Inc, Head of QA (2015-2019)</li>
+                        <li>3at Dev, QA (2014-2015)</li>
+                    </ul>
+                </section>
     </section>
 </main>
-<footer>
-    <address>
+<footer>gi
         <p>2021</p>
-    </address>
 </footer>
 </body>
 </html>
